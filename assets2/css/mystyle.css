@@ -1,0 +1,100 @@
+body {
+background: url(img/boody.jpg) repeat-y center top;
+font-family: Californian FB, Helvetica, sans-serif;
+font-size: 15px;
+color: black;
+}
+
+div.a {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
+    animation: myfirst 5s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    0%   {background: red;}
+    25%  {background: yellow;}
+    50%  {background: blue;}
+    100% {background: green;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    0%   {background: red;}
+    25%  {background: yellow;}
+    50%  {background: blue;}
+    100% {background: green;}
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+/* visited link */
+a:visited {
+    color: red;
+}
+
+/* mouse over link */
+a:hover {
+    font-size: 25px;
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: orange;
+}
+
+input{
+    font-family: Courier New, Helvetica, sans-serif;
+}
+
+
+input, textarea {
+
+background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(1%, darkorange), to(#FFFFFF));
+background: -moz-linear-gradient(top, #FFFFFF, darkorange 1px, #FFFFFF 25px);
+background: -moz-linear-gradient(bottom, #FFFFFF, darkorange 1px, #FFFFFF 25px);
+
+}
+
+
+input:focus, textarea:focus
+{
+
+background: #B5B5B5;
+    -webkit-box-shadow: rgba(255, 255, 255, 0.4) 0 1px, black 0px 1px 3px inset, rgba(0, 0, 0, 0.4) 0px -5px 12px inset;
+    -moz-box-shadow: rgba(255, 255, 255, 0.4) 0 1px, black 0px 1px 3px inset, rgba(0, 0, 0, 0.4) 0px -5px 12px inset;
+    box-shadow: rgba(255, 255, 255, 0.4) 0 1px, black 0px 1px 3px inset, rgba(0, 0, 0, 0.4) 0px -5px 12px inset;
+    text-shadow: rgba(255, 255, 255, 0.3) 0px 1px;
+}
+
+input:hover
+{
+background: darkorange;
+    -webkit-box-shadow: rgba(255, 255, 255, 0.4) 0 1px, black 0px 1px 5px inset, rgba(0, 0, 0, 0.4) 0px -5px 12px inset;
+    -moz-box-shadow: rgba(255, 255, 255, 0.4) 0 1px, black 0px 1px 5px inset, rgba(0, 0, 0, 0.4) 0px -5px 12px inset;
+    box-shadow: rgba(255, 255, 255, 0.4) 0 1px, black 0px 1px 5px inset, rgba(0, 0, 0, 0.4) 0px -5px 12px inset;
+    text-shadow: rgba(255, 255, 255, 0.3) 0px 1px;
+}
+
+input:active
+{
+background: #B5B5B5;
+    -webkit-box-shadow: rgba(255, 255, 255, 0.4) 0 1px, black 0px 1px 3px inset, rgba(0, 0, 0, 0.4) 0px -5px 12px inset;
+    -moz-box-shadow: rgba(255, 255, 255, 0.4) 0 1px, black 0px 1px 3px inset, rgba(0, 0, 0, 0.4) 0px -5px 12px inset;
+    box-shadow: rgba(255, 255, 255, 0.4) 0 1px, black 0px 1px 3px inset, rgba(0, 0, 0, 0.4) 0px -5px 12px inset;
+    text-shadow: rgba(255, 255, 255, 0.3) 0px 1px;
+
+}
+
+
