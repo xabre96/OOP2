@@ -1,3 +1,3 @@
 #OOP2 Final Project
 
-Disease Information Dissemination of Muncipalities Web Application a Final Project in OOP2.
+Disease Information Dissemination System a Final Project in OOP2.
