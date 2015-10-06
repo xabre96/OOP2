@@ -1,1 +1,0 @@
-<p><?php echo anchor('', 'Try it again!'); ?></p>
